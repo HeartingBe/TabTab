@@ -1,5 +1,7 @@
 ---
 lang: zh-CN
-title: COMMAND
+title: 寻求帮助
 description: 不可描述
 ---
+
+# 寻求帮助

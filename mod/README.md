@@ -1,10 +1,11 @@
 ---
 lang: zh-CN
-title: MOD
+title: 模组
 description: 不可描述
 ---
 # 
-```mcfunction
-tellraw @a ["Hello World!"]
+```java
+LoggerFactory.getLogger("TabTab").info("Hello World!");
 ```
----
+
+# 模组
