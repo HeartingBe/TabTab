@@ -10,7 +10,15 @@ export default hopeTheme({
     url: "https://space.bilibili.com/133430292",
   },
 
+  pageInfo: ["Author", "Date", "Category", "Tag"],
+
   iconAssets: "iconfont",
+
+  fullscreen: true,
+
+  navbar: zhNavbar,
+
+  sidebar: zhSidebar,
 
   favicon:"/assets/favicon.png",
 
@@ -22,55 +30,30 @@ export default hopeTheme({
 
   sidebarSorter: ["readme", "filename"],
 
+  metaLocales: {
+    editLink: "在 GitHub 上编辑此页",
+  },
+
   locales: {
     /**
      * Chinese locale config
      */
-    "/home/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-      
-      footer: "",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+    "/": {
       docsBranch: "master"
     },
-    "/command/": {
-      navbar: zhNavbar,
-      sidebar: zhSidebar,
-      footer: "",
-      displayFooter: true,
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+    "/home/": {
+      docsBranch: "master"
+    },
+    "/command_and_datapack/": {
       docsBranch: "master"
     },
     "/source_code/": {
-      navbar: zhNavbar,
-      sidebar: zhSidebar,
-      footer: "",
-      displayFooter: true,
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
       docsBranch: "master"
     },
     "/mod/": {
-      navbar: zhNavbar,
-      sidebar: zhSidebar,
-      footer: "",
-      displayFooter: true,
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+      docsBranch: "master"
+    },
+    "/other/": {
       docsBranch: "master"
     }
   },

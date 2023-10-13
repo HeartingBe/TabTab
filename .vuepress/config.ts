@@ -3,6 +3,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { path } from '@vuepress/utils';
 
 import theme from "./theme.js";
+import { readingTime } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   plugins: [
@@ -14,21 +15,9 @@ export default defineUserConfig({
   base: "/",
 
   locales: {
-    "/home/": {
+    "/": {
       lang: "zh-CN",
-      title: "TabTab - HOME"
-    },
-    "/command/": {
-      lang: "zh-CN",
-      title: "TabTab - COMMAND"
-    },
-    "/source_code/": {
-      lang: "zh-CN",
-      title: "TabTab - SOURCE_CODE"
-    },
-    "/mod/": {
-      lang: "zh-CN",
-      title: "TabTab - MOD"
+      title: "TabTab"
     }
   },
 

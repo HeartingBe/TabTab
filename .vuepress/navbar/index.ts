@@ -1,6 +1,5 @@
 import { navbar } from "vuepress-theme-hope";
 
-// 上方菜单栏
 export const zhNavbar = navbar([
     {
         text: "首页",
@@ -9,17 +8,22 @@ export const zhNavbar = navbar([
     },
     {
         text: "命令",
-        icon: "home",
-        link: "/command/"
+        icon: "object",
+        link: "/command_and_datapack/"
     },
     {
         text: "源码",
-        icon: "home",
+        icon: "code",
         link: "/source_code/"
     },
     {
         text: "模组",
-        icon: "home",
+        icon: "java",
         link: "/mod/"
+    },
+    {
+        text: "杂货铺",
+        icon: "support",
+        link: "/other/"
     }
 ]);
